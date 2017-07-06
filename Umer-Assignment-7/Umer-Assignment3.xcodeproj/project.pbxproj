@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E5C8B691EFA794B00AD88E9 /* Umer-Assignment3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7E5C8B671EFA794B00AD88E9 /* Umer-Assignment3.xcdatamodeld */; };
+		7E5C8B6C1EFA7ECD00AD88E9 /* FetchUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5C8B6A1EFA7ECD00AD88E9 /* FetchUtility.swift */; };
+		7E5C8B6D1EFA7ECD00AD88E9 /* CoreDataExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5C8B6B1EFA7ECD00AD88E9 /* CoreDataExtension.swift */; };
+		7E5C8B741F0B834900AD88E9 /* CoreDataFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5C8B701F0B834900AD88E9 /* CoreDataFetch.swift */; };
+		7E5C8B751F0B834900AD88E9 /* URLDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5C8B711F0B834900AD88E9 /* URLDataService.swift */; };
+		7E5C8B761F0B834900AD88E9 /* CoreDataLoad.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5C8B721F0B834900AD88E9 /* CoreDataLoad.swift */; };
+		7E5C8B771F0B834900AD88E9 /* BackgroundDataCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5C8B731F0B834900AD88E9 /* BackgroundDataCoordinator.swift */; };
+		7E5C8B791F0B851E00AD88E9 /* db.json in Resources */ = {isa = PBXBuildFile; fileRef = 7E5C8B781F0B851E00AD88E9 /* db.json */; };
+		7E5C8B811F0D226300AD88E9 /* Umer_Assignment3Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5C8B801F0D226300AD88E9 /* Umer_Assignment3Tests.swift */; };
+		7E5C8B8F1F0D227E00AD88E9 /* Umer_Assignment3UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5C8B8E1F0D227E00AD88E9 /* Umer_Assignment3UITests.swift */; };
+		7EC8DEC41EEFC6200002632E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC8DEC31EEFC6200002632E /* AppDelegate.swift */; };
+		7EC8DEC61EEFC6200002632E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC8DEC51EEFC6200002632E /* ViewController.swift */; };
+		7EC8DEC91EEFC6200002632E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EC8DEC71EEFC6200002632E /* Main.storyboard */; };
+		7EC8DECB1EEFC6200002632E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EC8DECA1EEFC6200002632E /* Assets.xcassets */; };
+		7EC8DECE1EEFC6200002632E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EC8DECC1EEFC6200002632E /* LaunchScreen.storyboard */; };
+		FA1336F81EF03B0000345DB5 /* AddBinViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1336F71EF03B0000345DB5 /* AddBinViewController.swift */; };
+		FA1336FC1EF03EB000345DB5 /* LocationProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1336FB1EF03EB000345DB5 /* LocationProtocol.swift */; };
+		FA1336FE1EF537F600345DB5 /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA1336FD1EF537F600345DB5 /* SearchTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E5C8B831F0D226300AD88E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EC8DEB81EEFC6200002632E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EC8DEBF1EEFC6200002632E;
+			remoteInfo = "Umer-Assignment3";
+		};
+		7E5C8B911F0D227E00AD88E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7EC8DEB81EEFC6200002632E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7EC8DEBF1EEFC6200002632E;
+			remoteInfo = "Umer-Assignment3";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E5C8B681EFA794B00AD88E9 /* Umer-Assignment3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Umer-Assignment3.xcdatamodel"; sourceTree = "<group>"; };
+		7E5C8B6A1EFA7ECD00AD88E9 /* FetchUtility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FetchUtility.swift; sourceTree = "<group>"; };
+		7E5C8B6B1EFA7ECD00AD88E9 /* CoreDataExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataExtension.swift; sourceTree = "<group>"; };
+		7E5C8B701F0B834900AD88E9 /* CoreDataFetch.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataFetch.swift; sourceTree = "<group>"; };
+		7E5C8B711F0B834900AD88E9 /* URLDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = URLDataService.swift; sourceTree = "<group>"; };
+		7E5C8B721F0B834900AD88E9 /* CoreDataLoad.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataLoad.swift; sourceTree = "<group>"; };
+		7E5C8B731F0B834900AD88E9 /* BackgroundDataCoordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BackgroundDataCoordinator.swift; sourceTree = "<group>"; };
+		7E5C8B781F0B851E00AD88E9 /* db.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = db.json; sourceTree = "<group>"; };
+		7E5C8B7E1F0D226300AD88E9 /* Umer-Assignment3Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Umer-Assignment3Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E5C8B801F0D226300AD88E9 /* Umer_Assignment3Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Umer_Assignment3Tests.swift; sourceTree = "<group>"; };
+		7E5C8B821F0D226300AD88E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E5C8B8C1F0D227E00AD88E9 /* Umer-Assignment3UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Umer-Assignment3UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E5C8B8E1F0D227E00AD88E9 /* Umer_Assignment3UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Umer_Assignment3UITests.swift; sourceTree = "<group>"; };
+		7E5C8B901F0D227E00AD88E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EC8DEC01EEFC6200002632E /* Umer-Assignment3.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Umer-Assignment3.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7EC8DEC31EEFC6200002632E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7EC8DEC51EEFC6200002632E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7EC8DEC81EEFC6200002632E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7EC8DECA1EEFC6200002632E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7EC8DECD1EEFC6200002632E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7EC8DECF1EEFC6200002632E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA1336F71EF03B0000345DB5 /* AddBinViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddBinViewController.swift; sourceTree = "<group>"; };
+		FA1336FB1EF03EB000345DB5 /* LocationProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocationProtocol.swift; sourceTree = "<group>"; };
+		FA1336FD1EF537F600345DB5 /* SearchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E5C8B7B1F0D226300AD88E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E5C8B891F0D227E00AD88E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EC8DEBD1EEFC6200002632E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E5C8B5E1EF142A500AD88E9 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				FA1336FB1EF03EB000345DB5 /* LocationProtocol.swift */,
+			);
+			name = Protocols;
+			sourceTree = "<group>";
+		};
+		7E5C8B6E1EFA7ED200AD88E9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7E5C8B6A1EFA7ECD00AD88E9 /* FetchUtility.swift */,
+				7E5C8B6B1EFA7ECD00AD88E9 /* CoreDataExtension.swift */,
+				7E5C8B701F0B834900AD88E9 /* CoreDataFetch.swift */,
+				7E5C8B711F0B834900AD88E9 /* URLDataService.swift */,
+				7E5C8B721F0B834900AD88E9 /* CoreDataLoad.swift */,
+				7E5C8B731F0B834900AD88E9 /* BackgroundDataCoordinator.swift */,
+				7E5C8B781F0B851E00AD88E9 /* db.json */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		7E5C8B7F1F0D226300AD88E9 /* Umer-Assignment3Tests */ = {
+			isa = PBXGroup;
+			children = (
+				7E5C8B801F0D226300AD88E9 /* Umer_Assignment3Tests.swift */,
+				7E5C8B821F0D226300AD88E9 /* Info.plist */,
+			);
+			path = "Umer-Assignment3Tests";
+			sourceTree = "<group>";
+		};
+		7E5C8B8D1F0D227E00AD88E9 /* Umer-Assignment3UITests */ = {
+			isa = PBXGroup;
+			children = (
+				7E5C8B8E1F0D227E00AD88E9 /* Umer_Assignment3UITests.swift */,
+				7E5C8B901F0D227E00AD88E9 /* Info.plist */,
+			);
+			path = "Umer-Assignment3UITests";
+			sourceTree = "<group>";
+		};
+		7EC8DEB71EEFC6200002632E = {
+			isa = PBXGroup;
+			children = (
+				7EC8DEC21EEFC6200002632E /* Umer-Assignment3 */,
+				7E5C8B7F1F0D226300AD88E9 /* Umer-Assignment3Tests */,
+				7E5C8B8D1F0D227E00AD88E9 /* Umer-Assignment3UITests */,
+				7EC8DEC11EEFC6200002632E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7EC8DEC11EEFC6200002632E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7EC8DEC01EEFC6200002632E /* Umer-Assignment3.app */,
+				7E5C8B7E1F0D226300AD88E9 /* Umer-Assignment3Tests.xctest */,
+				7E5C8B8C1F0D227E00AD88E9 /* Umer-Assignment3UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7EC8DEC21EEFC6200002632E /* Umer-Assignment3 */ = {
+			isa = PBXGroup;
+			children = (
+				7EC8DEC31EEFC6200002632E /* AppDelegate.swift */,
+				7EC8DEC51EEFC6200002632E /* ViewController.swift */,
+				FA1336F71EF03B0000345DB5 /* AddBinViewController.swift */,
+				FA1336FD1EF537F600345DB5 /* SearchTableViewController.swift */,
+				7E5C8B6E1EFA7ED200AD88E9 /* Model */,
+				FA1337141EF53F7800345DB5 /* Entity */,
+				7E5C8B5E1EF142A500AD88E9 /* Protocols */,
+				7EC8DEC71EEFC6200002632E /* Main.storyboard */,
+				7E5C8B671EFA794B00AD88E9 /* Umer-Assignment3.xcdatamodeld */,
+				7EC8DECA1EEFC6200002632E /* Assets.xcassets */,
+				7EC8DECC1EEFC6200002632E /* LaunchScreen.storyboard */,
+				7EC8DECF1EEFC6200002632E /* Info.plist */,
+			);
+			path = "Umer-Assignment3";
+			sourceTree = "<group>";
+		};
+		FA1337141EF53F7800345DB5 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Entity;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E5C8B7D1F0D226300AD88E9 /* Umer-Assignment3Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E5C8B851F0D226300AD88E9 /* Build configuration list for PBXNativeTarget "Umer-Assignment3Tests" */;
+			buildPhases = (
+				7E5C8B7A1F0D226300AD88E9 /* Sources */,
+				7E5C8B7B1F0D226300AD88E9 /* Frameworks */,
+				7E5C8B7C1F0D226300AD88E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E5C8B841F0D226300AD88E9 /* PBXTargetDependency */,
+			);
+			name = "Umer-Assignment3Tests";
+			productName = "Umer-Assignment3Tests";
+			productReference = 7E5C8B7E1F0D226300AD88E9 /* Umer-Assignment3Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7E5C8B8B1F0D227E00AD88E9 /* Umer-Assignment3UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E5C8B931F0D227E00AD88E9 /* Build configuration list for PBXNativeTarget "Umer-Assignment3UITests" */;
+			buildPhases = (
+				7E5C8B881F0D227E00AD88E9 /* Sources */,
+				7E5C8B891F0D227E00AD88E9 /* Frameworks */,
+				7E5C8B8A1F0D227E00AD88E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E5C8B921F0D227E00AD88E9 /* PBXTargetDependency */,
+			);
+			name = "Umer-Assignment3UITests";
+			productName = "Umer-Assignment3UITests";
+			productReference = 7E5C8B8C1F0D227E00AD88E9 /* Umer-Assignment3UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		7EC8DEBF1EEFC6200002632E /* Umer-Assignment3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7EC8DED21EEFC6200002632E /* Build configuration list for PBXNativeTarget "Umer-Assignment3" */;
+			buildPhases = (
+				7EC8DEBC1EEFC6200002632E /* Sources */,
+				7EC8DEBD1EEFC6200002632E /* Frameworks */,
+				7EC8DEBE1EEFC6200002632E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Umer-Assignment3";
+			productName = "Umer-Assignment3";
+			productReference = 7EC8DEC01EEFC6200002632E /* Umer-Assignment3.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7EC8DEB81EEFC6200002632E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Nisum Technologies";
+				TargetAttributes = {
+					7E5C8B7D1F0D226300AD88E9 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7EC8DEBF1EEFC6200002632E;
+					};
+					7E5C8B8B1F0D227E00AD88E9 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7EC8DEBF1EEFC6200002632E;
+					};
+					7EC8DEBF1EEFC6200002632E = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7EC8DEBB1EEFC6200002632E /* Build configuration list for PBXProject "Umer-Assignment3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7EC8DEB71EEFC6200002632E;
+			productRefGroup = 7EC8DEC11EEFC6200002632E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7EC8DEBF1EEFC6200002632E /* Umer-Assignment3 */,
+				7E5C8B7D1F0D226300AD88E9 /* Umer-Assignment3Tests */,
+				7E5C8B8B1F0D227E00AD88E9 /* Umer-Assignment3UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E5C8B7C1F0D226300AD88E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E5C8B8A1F0D227E00AD88E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EC8DEBE1EEFC6200002632E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EC8DECE1EEFC6200002632E /* LaunchScreen.storyboard in Resources */,
+				7E5C8B791F0B851E00AD88E9 /* db.json in Resources */,
+				7EC8DECB1EEFC6200002632E /* Assets.xcassets in Resources */,
+				7EC8DEC91EEFC6200002632E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E5C8B7A1F0D226300AD88E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E5C8B811F0D226300AD88E9 /* Umer_Assignment3Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E5C8B881F0D227E00AD88E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E5C8B8F1F0D227E00AD88E9 /* Umer_Assignment3UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7EC8DEBC1EEFC6200002632E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA1336F81EF03B0000345DB5 /* AddBinViewController.swift in Sources */,
+				7E5C8B6D1EFA7ECD00AD88E9 /* CoreDataExtension.swift in Sources */,
+				7E5C8B691EFA794B00AD88E9 /* Umer-Assignment3.xcdatamodeld in Sources */,
+				7EC8DEC61EEFC6200002632E /* ViewController.swift in Sources */,
+				FA1336FE1EF537F600345DB5 /* SearchTableViewController.swift in Sources */,
+				7E5C8B741F0B834900AD88E9 /* CoreDataFetch.swift in Sources */,
+				7E5C8B761F0B834900AD88E9 /* CoreDataLoad.swift in Sources */,
+				7EC8DEC41EEFC6200002632E /* AppDelegate.swift in Sources */,
+				7E5C8B771F0B834900AD88E9 /* BackgroundDataCoordinator.swift in Sources */,
+				7E5C8B751F0B834900AD88E9 /* URLDataService.swift in Sources */,
+				FA1336FC1EF03EB000345DB5 /* LocationProtocol.swift in Sources */,
+				7E5C8B6C1EFA7ECD00AD88E9 /* FetchUtility.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E5C8B841F0D226300AD88E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7EC8DEBF1EEFC6200002632E /* Umer-Assignment3 */;
+			targetProxy = 7E5C8B831F0D226300AD88E9 /* PBXContainerItemProxy */;
+		};
+		7E5C8B921F0D227E00AD88E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7EC8DEBF1EEFC6200002632E /* Umer-Assignment3 */;
+			targetProxy = 7E5C8B911F0D227E00AD88E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7EC8DEC71EEFC6200002632E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EC8DEC81EEFC6200002632E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7EC8DECC1EEFC6200002632E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7EC8DECD1EEFC6200002632E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E5C8B861F0D226300AD88E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = "Umer-Assignment3Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nisum.Umer-Assignment3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Umer-Assignment3.app/Umer-Assignment3";
+			};
+			name = Debug;
+		};
+		7E5C8B871F0D226300AD88E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = "Umer-Assignment3Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nisum.Umer-Assignment3Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Umer-Assignment3.app/Umer-Assignment3";
+			};
+			name = Release;
+		};
+		7E5C8B941F0D227E00AD88E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Umer-Assignment3UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nisum.Umer-Assignment3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Umer-Assignment3";
+			};
+			name = Debug;
+		};
+		7E5C8B951F0D227E00AD88E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Umer-Assignment3UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nisum.Umer-Assignment3UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = "Umer-Assignment3";
+			};
+			name = Release;
+		};
+		7EC8DED01EEFC6200002632E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7EC8DED11EEFC6200002632E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7EC8DED31EEFC6200002632E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = "Umer-Assignment3/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nisum.Umer-Assignment3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		7EC8DED41EEFC6200002632E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ENABLE_TESTABILITY = YES;
+				INFOPLIST_FILE = "Umer-Assignment3/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.nisum.Umer-Assignment3";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E5C8B851F0D226300AD88E9 /* Build configuration list for PBXNativeTarget "Umer-Assignment3Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E5C8B861F0D226300AD88E9 /* Debug */,
+				7E5C8B871F0D226300AD88E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7E5C8B931F0D227E00AD88E9 /* Build configuration list for PBXNativeTarget "Umer-Assignment3UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E5C8B941F0D227E00AD88E9 /* Debug */,
+				7E5C8B951F0D227E00AD88E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		7EC8DEBB1EEFC6200002632E /* Build configuration list for PBXProject "Umer-Assignment3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EC8DED01EEFC6200002632E /* Debug */,
+				7EC8DED11EEFC6200002632E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7EC8DED21EEFC6200002632E /* Build configuration list for PBXNativeTarget "Umer-Assignment3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7EC8DED31EEFC6200002632E /* Debug */,
+				7EC8DED41EEFC6200002632E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7E5C8B671EFA794B00AD88E9 /* Umer-Assignment3.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7E5C8B681EFA794B00AD88E9 /* Umer-Assignment3.xcdatamodel */,
+			);
+			currentVersion = 7E5C8B681EFA794B00AD88E9 /* Umer-Assignment3.xcdatamodel */;
+			path = "Umer-Assignment3.xcdatamodeld";
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7EC8DEB81EEFC6200002632E /* Project object */;
+}
